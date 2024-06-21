@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh !important;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  max-width: 390px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  background: url("https://assets.entrepreneur.com/images/misc/1653402257_0_04_0.jpeg?width=1000");
+  overflow: hidden;
+  padding: 33px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+}
+
+legend {
+  display: none;
+}
+
+.signin-title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input {
+  margin: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ee1c1c;
+  background: none;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.signin-btn {
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+  height: 35px;
+  margin: auto;
+  border-radius: 15px;
+  border: none;
+  background: -webkit-linear-gradient(right, #ba1616, #000000);
+}
